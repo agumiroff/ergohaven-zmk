@@ -77,19 +77,12 @@
             >;
 
             display-name = "Base";
-            sensor-bindings =
-                <&enc_vol>,
-                <&enc_vol>,
-                <&enc_vol>,
-                <&enc_vol>,
-                <&enc_vol>,
-                <&enc_vol>;
         };
 
         sym {
             bindings = <
 &kp F12         &kp F1            &kp F2             &kp F3          &kp F4            &kp F5                         &kp F6     &kp F7         &kp F8     &kp F9     &kp F10        &kp F11
-&kp TILDE       &kp EXCL          &kp AT_SIGN        &kp HASH        &kp DOLLAR        &kp PRCNT                      &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp COLON  &kp SEMICOLON  &kp
+&kp TILDE       &kp EXCL          &kp AT_SIGN        &kp HASH        &kp DOLLAR        &kp PRCNT                      &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp COLON  &kp SEMICOLON  &none
 &kp LEFT_SHIFT  &kp LPAR          &kp RPAR           &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp PIPE                       &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp DQT        &kp APOS
 &kp LCTRL       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN   &kp GREATER_THAN  &kp FSLH   &kp BSLH    &trans  &kp EQUAL  &kp DOT        &kp COMMA  &kp QMARK  &kp MINUS      &kp RCTRL
                                   &trans             &trans          &trans            &trans     &trans      &trans  &trans     &trans         &trans     &trans
